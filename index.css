@@ -1,0 +1,55 @@
+
+    body { 
+        font-family: Arial, sans-serif; 
+        margin: 0; 
+        padding: 0; 
+    }
+    header { 
+        background-color: skyblue; 
+        color: white; 
+        padding: 1rem; 
+        text-align: center; 
+    }
+    nav { 
+        background: #388E3C; 
+        padding: 0.6rem; 
+        text-align: center; 
+    }
+    nav a { 
+        color: white; 
+        margin: 0 2rem; 
+        text-decoration: none; 
+    }
+    .container { 
+        padding: 3rem; 
+        max-width: 800px; 
+        margin: auto; 
+    }
+    .estimator, .contact { 
+        margin-top: 2rem; 
+        padding: 1rem; 
+        border: 2px solid #ccc; 
+        border-radius: 9px; 
+    }
+    label { 
+        display: block; 
+        margin-top: 1rem; 
+    }
+    input, select, textarea { 
+        width: 100%; 
+        padding: 0.5rem; 
+        margin-top: 0.5rem; 
+    }
+    button { 
+        background-color: #4CAF50; 
+        color: white; 
+        border: none; 
+        padding: 0.75rem 1.5rem; 
+        margin-top: 1rem; 
+        cursor: pointer; 
+    }
+    .result { 
+        font-weight: bold; 
+        margin-top: 2rem; 
+    }
+  

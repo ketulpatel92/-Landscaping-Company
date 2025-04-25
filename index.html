@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenScape Landyard</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>GreenScape Landyard</h1>
+    <p>Professional landscaping services provide to your needs</p>
+  </header>
+  <nav>
+    <a href="#estimate">Cost Estimator</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+
+  <div class="container">
+    <section id="estimate" class="estimator">
+      <h2>Yard Cost Estimator</h2>
+      <label for="yardSize">Yard Size (in square feet):</label>
+      <input type="number" id="yard" placeholder="Enter size">
+
+      <label for="design">Design Option:</label>
+      <select id="design">
+        <option value="basic">Basic ($2/sq ft)</option>
+        <option value="standard">Standard ($4/sq ft)</option>
+        <option value="premium">Premium ($6/sq ft)</option>
+      </select>
+
+      <button onclick="calculate()">Calculate</button>
+      <p class="result" id="estimateResult"></p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
